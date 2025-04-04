@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    GITHUB_TOKEN = credentials('jenkin token')
+    GITHUB_TOKEN = credentials('jenkin-token')
     BASE_BRANCH = 'main'
   }
 
